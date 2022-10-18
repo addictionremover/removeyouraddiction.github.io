@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(67, 233, 134);
+    margin-top: 2cm;
+    background-color: transparent;
+    border-radius: 2cm;
+    width: 19cm;
+    height: 60px;
+    position: absolute;
+    margin-left: 7.5cm;
+    border:solid #6bc5c0;
+    transition: ease-out 0.3s;
+}
+
+.a{
+    background-color: rgb(245, 245, 220);
+}
+
+
+.f{
+    background-color: bisque;
+    text-align: right;
+    border-radius: 3cm;
+    padding: 1.5cm;
+    margin-top: 6cm;
+    margin-bottom: 1cm;
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    margin-left: 26cm;
+    transition: ease-out 0.3s;
+    font-size: larger;
+}
+
+.g{
+    background-color: bisque;
+    text-align: left;
+    border-radius: 3cm;
+    padding: 1.5cm;
+    margin-top: 12cm;
+    margin-bottom: 1cm;
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    margin-left: 2cm;
+    transition: ease-out 0.3s;
+    font-size: larger;
+}
+
+.h{
+    background-color: bisque;
+    text-align: right;
+    border-radius: 3cm;
+    padding: 1.5cm;
+    margin-top: 20cm;
+    margin-bottom: 1cm;
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    margin-left: 26cm;
+    transition: ease-out 0.3s;
+    font-size: larger;
+}
+
+.i{
+    background-color: bisque;
+    text-align: left;
+    border-radius: 3cm;
+    padding: 1.5cm;
+    margin-top: 30cm;
+    margin-bottom: 1cm;
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    margin-left: 2cm;
+    transition: ease-out 0.3s;
+    font-size: larger;
+}
+
+.j{
+    background-color: bisque;
+    text-align: right;
+    border-radius: 3cm;
+    padding: 1.5cm;
+    margin-top: 40cm;
+    margin-bottom: 1cm;
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    margin-left: 26cm;
+    transition: ease-out 0.3s;
+    font-size: larger;
+}
+
+.f:hover{
+    box-shadow: inset 300px 0 0 0 rgba(232, 46, 46, 0.067);
+    cursor: pointer;
+  }
+
+.g:hover{
+    box-shadow: inset 300px 0 0 0 rgba(232, 46, 46, 0.067);
+    cursor: pointer;
+  }
+  
+.h:hover{
+    box-shadow: inset 300px 0 0 0 rgba(232, 46, 46, 0.067);
+    cursor: pointer;
+  }  
+
+.i:hover{
+    box-shadow: inset 300px 0 0 0 rgba(232, 46, 46, 0.067);
+    cursor: pointer;
+  }  
+
+.j:hover{
+    box-shadow: inset 300px 0 0 0 rgba(232, 46, 46, 0.067);
+    cursor: pointer;
+  }  
+
+ h1:hover{
+    cursor: pointer;
+} 
+
+h1:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #6bc5c0;
+    border-radius: 2cm;
+}
+h1:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    color:rgb(131, 122, 212);
+}
+
+.k{
+    text-align: center;
+    color: rgb(63, 77, 143);
+    margin-top: 50cm;
+    background-color: transparent;
+    border-radius: 2cm;
+    width: 19cm;
+    height: 60px;
+    position: absolute;
+    margin-left: 7.5cm;
+    border:solid #6bc5c0;
+    transition: ease-out 0.3s;
+    font-size: medium;
+}
+
+
+.k:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #6bc5c0;
+    border-radius: 2cm;
+    font-size: medium;
+}
+.k:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    color:rgb(131, 122, 212);
+}
